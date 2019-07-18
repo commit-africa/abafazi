@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     ...siteConfig,
   },
-  pathPrefix: '/seeking-shelter',
+  pathPrefix: '/mandela-day-hackathon',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',

@@ -5,7 +5,7 @@ module.exports = {
   siteTitleShort: 'Shelter',
   siteDescription:
     'Shelters and services aimed at women that are victims of abuse',
-  siteUrl: 'https://seeking-shelter.netlify.com',
+  siteUrl: 'https://mandela-day-hackathon.netlify.com',
   themeColor: '#000',
   backgroundColor: '#fff',
   pathPrefix: null,

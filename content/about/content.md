@@ -1,4 +1,4 @@
-Find the repository [on GitHub](https://github.com/Asimmetric/seeking-shelter).
+Find the repository [on GitHub](https://github.com/diff-community/mandela-day-hackathon).
 
 ```cli
 # To dev
