@@ -6,5 +6,4 @@ export const Container = styled.div`
   display: flex;
   font-weight: 500;
   margin: 0 15px;
-  background: blue;
 `;

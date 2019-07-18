@@ -1,14 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import styled from 'styled-components';
+import { useStaticQuery, graphql } from 'gatsby';
 import Section from '../components/section';
-import { Container } from '../components/layout/container.css';
+import { HelpContainer } from 'containers/help';
 
-const HelpSection = () => (
-  <Section>
-    <Container>Help Section</Container>
-  </Section>
-);
+const HelpSection = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        helpJson {
+          helpList {
+            description
+            title
+          }
+        }
+      }
+    `
+  );
+
+  return (
+    <Section>
+      {data.helpJson.helpList.map((helpData, i) => (
+        <HelpContainer
+          key={i}
+          blue={i === 0}
+          title={helpData.title}
+          description={helpData.description}
+        />
+      ))}
+    </Section>
+  );
+};
 
 HelpSection.propTypes = {
   children: PropTypes.node.isRequired,

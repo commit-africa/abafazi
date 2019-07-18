@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: 'Seeking Shelter',
-  siteTitleShort: 'Shelter',
+  siteTitle: 'Abafazi',
+  siteTitleShort: 'Abafazi',
   siteDescription:
     'Shelters and services aimed at women that are victims of abuse',
-  siteUrl: 'https://mandela-day-hackathon.netlify.com',
+  siteUrl: 'https://abafazi.netlify.com',
   themeColor: '#000',
   backgroundColor: '#fff',
   pathPrefix: null,

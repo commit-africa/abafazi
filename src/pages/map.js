@@ -9,7 +9,7 @@ const Map = () => (
     <Container>
       <iframe
         title="Shelter Map"
-        src="https://codebridge-za.github.io/mandela-day-hackathon/"
+        src="https://codebridge-za.github.io/abafazi/"
         width="100%"
         height="100%"
       ></iframe>

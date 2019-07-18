@@ -1,7 +1,7 @@
-<h1 align="center">Seeking Shelter</h1>
+<h1 align="center">Abafazi</h1>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/mandela-day-hackathon/deploys">
+  <a href="https://app.netlify.com/sites/abafazi/deploys">
     <img
       src="https://api.netlify.com/api/v1/badges/4cbe07c5-64e4-4e95-a31f-81132494c557/deploy-status"
       alt="Netlify Status"
@@ -15,7 +15,7 @@
 
 <p align="center">
   <strong>
-    Site is live at <a href="https://mandela-day-hackathon.netlify.com/">mandela-day-hackathon.netlify.com</a>.
+    Site is live at <a href="https://abafazi.netlify.com/">abafazi.netlify.com</a>.
   </strong>
 </p>
 
@@ -39,8 +39,8 @@ TL;DR, ensure you have:
 Then setup the project:
 
 ```bash
-git clone git@github.com:diff-community/mandela-day-hackathon.git mandela-day-hackathon
-cd mandela-day-hackathon
+git clone git@github.com:diff-community/abafazi.git abafazi
+cd abafazi
 npm install
 ```
 
@@ -71,9 +71,9 @@ npm run build:favicons
 The site is currently set up to allow hosting on:
 
 - Netlify - automagically deployed
-  - [https://mandela-day-hackathon.netlify.com](https://mandela-day-hackathon.netlify.com/) 
+  - [https://abafazi.netlify.com](https://abafazi.netlify.com/) 
 - GitHub Pages - via the cli 
-  - [https://asimmetric.github.io/mandela-day-hackathon](https://asimmetric.github.io/mandela-day-hackathon/)
+  - [https://diff-community.github.io/abafazi](https://diff-community.github.io/abafazi/)
 
 ## Folder structure
 

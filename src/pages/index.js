@@ -4,7 +4,6 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
@@ -12,6 +11,7 @@ import HelpSection from '../sections/help';
 import StatsSection from '../sections/stats';
 import StorySection from '../sections/story';
 import ResourceSection from '../sections/resources';
+import VideoSection from '../sections/video';
 
 const Index = ({ data }) => (
   <Layout>
@@ -33,11 +33,10 @@ const Index = ({ data }) => (
     <HelpSection />
     <StatsSection />
     <StorySection />
+    <VideoSection />
     <ResourceSection />
 
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
   </Layout>
 );
 
