@@ -46,6 +46,7 @@ export default createGlobalStyle`
     -webkit-font-feature-settings: "pnum";
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
+    color: ${props => props.theme.darkGrey}
   }
 
   ol, ul {

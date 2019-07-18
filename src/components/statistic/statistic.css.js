@@ -3,8 +3,8 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   background: white;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 90px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
