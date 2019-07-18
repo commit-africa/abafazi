@@ -12,6 +12,7 @@ import HelpSection from '../sections/help';
 import StatsSection from '../sections/stats';
 import StorySection from '../sections/story';
 import ResourceSection from '../sections/resources';
+import VideoSection from '../sections/video';
 
 const Index = ({ data }) => (
   <Layout>
@@ -33,6 +34,7 @@ const Index = ({ data }) => (
     <HelpSection />
     <StatsSection />
     <StorySection />
+    <VideoSection />
     <ResourceSection />
 
     <Gallery items={data.homeJson.gallery} />
