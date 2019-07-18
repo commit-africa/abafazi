@@ -11,15 +11,16 @@ export const SubTitle = styled.p`
 `;
 
 export const CardTitle = styled.h3`
-  font-size: 2em;
+  font-size: 2.2em;
+  font-weight: 600;
   margin-bottom: 0.4em;
-  color: ${props => props.theme.darkGrey};
+  color: ${props => props.theme[props.color] || props.theme.darkGrey};
 `;
 
 export const CardSubTitle = styled.p`
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 100;
-  color: ${props => props.theme[props.color] || 'white'};
+  color: ${props => props.theme[props.color] || props.theme.white};
   width: ${props => props.width || 'auto'};
   text-align: ${props => props.textAlignCenter};
 `;

@@ -23,7 +23,7 @@ const HelpSection = () => {
       {data.helpJson.helpList.map((helpData, i) => (
         <HelpContainer
           key={i}
-          blue={i === 0}
+          blueTheme={i === 0}
           title={helpData.title}
           description={helpData.description}
         />
