@@ -10,12 +10,12 @@
 </p>
 
 <p align="center">
-  A project that focuses on shelters and services aimed at women that are victims of abuse.
+  A project focusing on shelters and services for women who are victims of abuse.
 </p>
 
 <p align="center">
   <strong>
-    You can access this site live at <a href="https://seeking-shelter.netlify.com/">seeking-shelter.netlify.com</a>.
+    Site is live at <a href="https://seeking-shelter.netlify.com/">seeking-shelter.netlify.com</a>.
   </strong>
 </p>
 
