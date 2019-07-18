@@ -73,7 +73,7 @@ The site is currently set up to allow hosting on:
 - Netlify - automagically deployed
   - [https://abafazi.netlify.com](https://abafazi.netlify.com/) 
 - GitHub Pages - via the cli 
-  - [https://asimmetric.github.io/abafazi](https://asimmetric.github.io/abafazi/)
+  - [https://diff-community.github.io/abafazi](https://diff-community.github.io/abafazi/)
 
 ## Folder structure
 
