@@ -1,5 +1,9 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
-  font-size: 4rem;
+export const Container = styled.span`
+  ${props =>
+    props.scale &&
+    css`
+      font-size: ${props.scale}em;
+    `}
 `;

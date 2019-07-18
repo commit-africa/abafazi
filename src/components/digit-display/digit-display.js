@@ -3,25 +3,26 @@ import PropTypes from 'prop-types';
 import { Container } from './digit-display.css';
 import { useInterval } from 'hooks/timing';
 
-const DigitDisplay = ({ value: targetValue }) => {
+const DigitDisplay = ({ value: targetValue, scale }) => {
   const [value, setValue] = useState(0);
 
-  const distance = targetValue - value;
+  const distance = Math.abs(targetValue - value);
   const distancePerc = (distance / targetValue) * 100;
 
-  const delay = distancePerc > 60 ? 5 : 50;
+  const delay = distancePerc > 60 ? 2 : 50;
 
   useInterval(() => {
-    const increment = Math.ceil(distance / 20);
+    const increment = Math.ceil(distance / 10);
     if (value < targetValue) setValue(value + increment);
     else if (value > targetValue) setValue(value - increment);
   }, delay);
 
-  return <Container>{value}</Container>;
+  return <Container scale={scale}>{value}</Container>;
 };
 
 DigitDisplay.propTypes = {
   value: PropTypes.number,
+  scale: PropTypes.number,
 };
 
 export default DigitDisplay;
