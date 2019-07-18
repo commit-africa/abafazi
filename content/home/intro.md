@@ -1,1 +1,1 @@
-A project that focuses on shelters and services aimed at women that are victims of abuse.
+A project focusing on shelters and services for women who are victims of abuse.
