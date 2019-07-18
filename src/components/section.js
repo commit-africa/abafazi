@@ -6,7 +6,6 @@ export const StyledSection = styled.div`
   display: flex;
   width: 100%;
   min-height: 50px;
-  background: red;
 `;
 
 const Section = ({ children }) => <StyledSection>{children}</StyledSection>;
