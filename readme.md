@@ -1,4 +1,4 @@
-<h1 align="center">Seeking Shelter</h1>
+<h1 align="center">Abafazi</h1>
 
 <p align="center">
   <a href="https://app.netlify.com/sites/abafazi/deploys">

@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: 'Seeking Shelter',
-  siteTitleShort: 'Shelter',
+  siteTitle: 'Abafazi',
+  siteTitleShort: 'Abafazi',
   siteDescription:
     'Shelters and services aimed at women that are victims of abuse',
   siteUrl: 'https://abafazi.netlify.com',
