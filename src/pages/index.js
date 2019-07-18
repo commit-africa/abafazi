@@ -8,6 +8,7 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 import Section from '../components/section';
+import DigitDisplay from 'components/digit-display'
 
 const Index = ({ data }) => (
   <Layout>
@@ -26,6 +27,7 @@ const Index = ({ data }) => (
       </Modal>
     </Box>
     <Section>Banner</Section>
+    <DigitDisplay value={30} />
     <Section>Stats</Section>
     <Section>Story</Section>
     <Section>I need help</Section>
