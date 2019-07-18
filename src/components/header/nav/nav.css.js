@@ -4,10 +4,10 @@ export const Container = styled.nav`
   ul {
     display: flex;
     list-style: none;
+    align-items: center;
     padding: 0;
 
     li {
-      text-transform: uppercase;
       font-size: 1.3rem;
 
       & + li {
