@@ -15,13 +15,13 @@ const Index = ({ data }) => (
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
       <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
+        <picture>
+          <source
+            srcSet="https://i.imgur.com/lqKlotB.png"
+            media="(min-width: 800px)"
+          />
+          <img src="https://i.imgur.com/lqKlotB.png" alt="Very Nice!" />
+        </picture>
       </Modal>
     </Box>
     <Gallery items={data.homeJson.gallery} />

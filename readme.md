@@ -70,6 +70,7 @@ npm run build:favicons
 ```
 
 ## Folder structure
+
 ```bash
 ├── gatsby-browser.js # Specify how Gatsby renders pages in the browser
 ├── gatsby-config.js # Gatsby config, mostly taken from `site-config.js`
@@ -98,10 +99,6 @@ npm run build:favicons
     ├── lighthouse.test.js # Tests the site specified inside `site-config.js` with Google Lighthouse (WIP)
     └── favicons.js # Generates favicons and manifest using one png only.
 ```
-
-## Lighthouse scores (on [Netlify](https://netlify.com))
-
-[![Lighthouse scores (on Netlify)](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/fabe/gatsby-universal)
 
 ## Gatsby
 

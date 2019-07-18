@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-universal",
+  "name": "seeking-shelter",
   "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Aruba UXI <support@capenetworks.com>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",
