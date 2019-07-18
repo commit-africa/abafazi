@@ -1,0 +1,12 @@
+{
+  "helpList": [
+    { 
+      "title": "I need help", 
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    { 
+      "title": "What i can do to help", 
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." 
+    }
+  ]
+}
