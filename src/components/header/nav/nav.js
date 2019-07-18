@@ -15,7 +15,9 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <a href="https://github.com/diff-community/mandela-day-hackathon">GitHub</a>
+        <a href="https://github.com/diff-community/mandela-day-hackathon">
+          GitHub
+        </a>
       </li>
     </ul>
   </Container>
