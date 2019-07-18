@@ -3,8 +3,8 @@ import styled, { css } from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   background: white;
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding: 6em 2em 2.5em;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,5 +39,10 @@ export const TextContainer = styled.div`
       props.weight &&
       css`
         font-weight: ${props.weight};
+      `}
+    ${props =>
+      props.center &&
+      css`
+        text-align: center;
       `}
 `;

@@ -13,7 +13,7 @@ const Statistic = ({ value, unit, title, description }) => {
       <TextContainer scale={2} weight={600}>
         {title}
       </TextContainer>
-      <TextContainer>{description}</TextContainer>
+      <TextContainer center>{description}</TextContainer>
     </Container>
   );
 };
