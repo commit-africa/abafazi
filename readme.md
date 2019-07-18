@@ -59,6 +59,9 @@ npm run develop
 # To build
 npm run build
 
+# To deploy to GitHub Pages
+npm run deploy:gh
+
 # To test SSR (for Lighthouse etc.)
 npm run ssr
 
@@ -68,6 +71,15 @@ npm run format
 # To generate favicons (included in `build`)
 npm run build:favicons
 ```
+
+## Hosting
+
+The site is currently set up to allow hosting on:
+
+- Netlify - automagically deployed
+  - [https://seeking-shelter.netlify.com](https://seeking-shelter.netlify.com/) 
+- GitHub Pages - via the cli 
+  - [https://asimmetric.github.io/seeking-shelter](https://asimmetric.github.io/seeking-shelter/)
 
 ## Folder structure
 
