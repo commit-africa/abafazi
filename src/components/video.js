@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
-  height: calc(100vw * 619 / 1100);
+  width: calc(100vw - 30px);
+  height: calc((100vw - 30px) * 619 / 1100);
 `;
 
 const Video = ({ videoSrcURL, videoTitle }) => (
