@@ -118,9 +118,9 @@ export default class IO extends Component {
     const { isVisible, hasBeenVisible } = this.state;
 
     return (
-      <div ref={this.handleRef}>
+      <span ref={this.handleRef}>
         {this.props.children({ isVisible, hasBeenVisible })}
-      </div>
+      </span>
     );
   }
 }

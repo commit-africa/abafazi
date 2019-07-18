@@ -1,0 +1,28 @@
+{
+  "statList": [
+    {
+      "value": 275536,
+      "unit": "",
+      "title": "Applications for Protection",
+      "description": "from domestic violence were lodged in South African courts in 2015/2016"
+    },
+    {
+      "value": 456466,
+      "unit": "",
+      "title": "Estimated number of women",
+      "description": "who have often experienced physical violence from their partner in 2016"
+    },
+    {
+      "value": 1866,
+      "unit": "",
+      "title": "Total capacity",
+      "description": "for abused women in South African shelters in 2016"
+    },
+    {
+      "value": 3,
+      "unit": "",
+      "title": "Women",
+      "description": "die at the hands of their intimate partner in South Africa every day"
+    }
+  ]
+}
