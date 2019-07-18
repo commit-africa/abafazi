@@ -12,7 +12,7 @@ const DigitDisplay = ({ value: targetValue, scale }) => {
   const delay = distancePerc > 60 ? 2 : 50;
 
   useInterval(() => {
-    const increment = Math.ceil(distance / 10);
+    const increment = Math.min(Math.ceil(distance / 10), distance);
     if (value < targetValue) setValue(value + increment);
     else if (value > targetValue) setValue(value - increment);
   }, delay);

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import Section from '../components/section';
 import { Container } from '../components/layout/container.css';
@@ -12,38 +13,40 @@ const StatsGrid = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 
-const StatsSection = () => (
-  <Section>
-    <Container>
-      <StatsGrid>
-        <Statistic
-          value={2950}
-          unit="seconds"
-          title="Stats Title"
-          description="Wat watt"
-        />
-        <Statistic
-          value={3564}
-          unit="ms"
-          title="Stats Title"
-          description="Wat watt"
-        />
-        <Statistic
-          value={89}
-          unit="%"
-          title="Stats Title"
-          description="Wat watt"
-        />
-        <Statistic
-          value={5}
-          unit="%"
-          title="Stats Title"
-          description="Wat watt"
-        />
-      </StatsGrid>
-    </Container>
-  </Section>
-);
+const StatsSection = () => {
+  const data = useStaticQuery(
+    graphql`
+      query {
+        statsJson {
+          statList {
+            value
+            unit
+            title
+            description
+          }
+        }
+      }
+    `
+  );
+
+  return (
+    <Section>
+      <Container>
+        <StatsGrid>
+          {data.statsJson.statList.map((statData, i) => (
+            <Statistic
+              key={i}
+              value={statData.value}
+              unit={statData.unit}
+              title={statData.title}
+              description={statData.description}
+            />
+          ))}
+        </StatsGrid>
+      </Container>
+    </Section>
+  );
+};
 
 StatsSection.propTypes = {
   children: PropTypes.node.isRequired,
