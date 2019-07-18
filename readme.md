@@ -7,12 +7,6 @@
       alt="Netlify Status"
     />
   </a>
-  <a href="https://greenkeeper.io/">
-    <img
-      src="https://badges.greenkeeper.io/fabe/gatsby-universal.svg"
-      alt="Greenkeeper badge"
-    />
-  </a>
 </p>
 
 <p align="center">
@@ -45,8 +39,8 @@ TL;DR, ensure you have:
 Then setup the project:
 
 ```bash
-git clone git@github.com:fabe/gatsby-universal.git my-site
-cd my-site
+git clone git@github.com:Asimmetric/seeking-shelter.git seeking-shelter
+cd seeking-shelter
 npm install
 ```
 
@@ -116,4 +110,4 @@ The site is currently set up to allow hosting on:
 
 - Based off a Gatsby theme [Gatsby Universal](https://github.com/fabe/gatsby-universal)
 - Author of Gatsby Universal Fabian Schultz [Stink Studios](https://stinkstudios.com)
-- Version used: [fbe237f](https://github.com/fabe/gatsby-universal/commit/fbe237feff8bb7afab3a601b3188904bb40424b7)
+  - Version used: [fbe237f](https://github.com/fabe/gatsby-universal/commit/fbe237feff8bb7afab3a601b3188904bb40424b7)
