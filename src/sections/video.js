@@ -6,17 +6,11 @@ import Video from 'components/video';
 
 const StorySection = () => (
   <Section>
-    <Container>
       <Video
         videoTitle="Seeking Shelter"
         videoSrcURL="https://www.youtube.com/embed/9WDUmj_ooac"
       />
-    </Container>
   </Section>
 );
-
-StorySection.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default StorySection;

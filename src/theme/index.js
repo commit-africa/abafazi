@@ -5,4 +5,5 @@ export const theme = {
   blue: '#329fcd',
   white: '#ffffff',
   black: '#000000',
+  bodyColour: '#666666',
 };

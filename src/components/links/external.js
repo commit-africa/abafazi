@@ -8,7 +8,11 @@ const ExternalLink = ({ url, children }) => (
 );
 
 ExternalLink.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node,
+    PropTypes.element,
+  ]),
   url: PropTypes.string.isRequired,
 };
 
