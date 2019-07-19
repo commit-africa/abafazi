@@ -10,6 +10,7 @@ import { graphql } from 'gatsby';
 import HelpSection from '../sections/help';
 import StatsSection from '../sections/stats';
 import StorySection from '../sections/story';
+import HeaderSection from '../sections/header';
 import ResourceSection from '../sections/resources';
 import VideoSection from '../sections/video';
 
@@ -29,7 +30,7 @@ const Index = ({ data }) => (
         </picture>
       </Modal>
     </Box>
-
+    <HeaderSection />
     <HelpSection />
     <StatsSection />
     <StorySection />

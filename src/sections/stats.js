@@ -52,8 +52,4 @@ const StatsSection = () => {
   );
 };
 
-StatsSection.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
 export default StatsSection;

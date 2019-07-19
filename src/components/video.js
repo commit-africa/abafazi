@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: calc(100vw - 30px);
+  width: 100vw;
   height: calc((100vw - 30px) * 619 / 1100);
 `;
 

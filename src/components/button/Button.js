@@ -31,6 +31,7 @@ const DefaultButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 
   &::-moz-focus-inner {
     border: 0;
@@ -59,10 +60,10 @@ const DefaultButton = styled.button`
     `}
 `;
 
-export const Button = ({ onClickHandler, name, outline }) => {
+export const Button = ({ onClickHandler, children, outline }) => {
   return (
     <DefaultButton outline={outline} onClick={onClickHandler}>
-      {name}
+      {children}
     </DefaultButton>
   );
 };
